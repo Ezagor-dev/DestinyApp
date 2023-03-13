@@ -12,7 +12,7 @@ Destiny App is a "choose your own adventure" game that tells a story based on th
 * Interactive storytelling experience
 * Engaging storylines that evolve based on user choices
 * Clear and easy-to-use interface
-* Compatible with both iOS and Android devices
+* Compatible with both iOS
 * Simple and intuitive gameplay
 
 
