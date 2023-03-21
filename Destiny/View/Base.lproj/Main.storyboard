@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="fM2-SL-58z">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ezagor_destiny_abstract_fb1094c4-0a50-4d65-9f25-332ef8af7b0f (1)" translatesAutoresizingMaskIntoConstraints="NO" id="fM2-SL-58z">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -50,6 +50,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eFt-IP-e1i"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Vgm-Aq-Re3">
                                         <rect key="frame" x="0.0" y="718" width="374" height="100"/>
@@ -66,6 +69,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Da0-c0-wyE"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -79,6 +85,11 @@
                             <constraint firstItem="dnB-IY-7bA" firstAttribute="top" secondItem="tmP-rn-ndt" secondAttribute="top" id="zdI-JM-sXf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choice1Button" destination="lnW-7o-5Fu" id="Y5d-4i-EFA"/>
+                        <outlet property="choice2Button" destination="Vgm-Aq-Re3" id="Eqe-FT-Qic"/>
+                        <outlet property="storyLabel" destination="3of-hi-Z7a" id="oe4-bT-RY1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,7 +97,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="958" height="1793"/>
+        <image name="Ezagor_destiny_abstract_fb1094c4-0a50-4d65-9f25-332ef8af7b0f (1)" width="1024" height="1536"/>
         <image name="choice1Background" width="1370.5" height="363"/>
         <image name="choice2Background" width="1370.5" height="363"/>
         <systemColor name="systemBackgroundColor">
