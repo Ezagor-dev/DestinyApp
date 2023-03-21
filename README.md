@@ -1,11 +1,21 @@
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+![image](https://user-images.githubusercontent.com/45847677/224705031-ba6b3f94-8173-47da-a0bd-7fcd955374dd.png)
 
-#  Destini
+#  Destiny App
 
-## Our Goal
+## Introduction
 
-The goal of this challenge is to get you comfortable with implementing the MVC design pattern and thinking about the state of your app. In addition, you will be reviewing the concept of Swift Structures and using it to separate the Model from the Controller. 
+Destiny App is a "choose your own adventure" game that tells a story based on the user's choices. This app is designed to provide an engaging storytelling experience by allowing users to make decisions that impact the direction of the story. 
+
+## Features
+
+* Interactive storytelling experience
+* Engaging storylines that evolve based on user choices
+* Clear and easy-to-use interface
+* Compatible with both iOS
+* Simple and intuitive gameplay
+
+
 
 ## What you will create
 
@@ -46,6 +56,12 @@ In this app, you will be creating a “choose your own adventure” game similar
         )      
 ```
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+## Contact: 
 
-![End Banner](Documentation/readme-end-banner.png)
+* [Telegram](https://t.me/ezagor)
+* [Twitter](https://twitter.com/ezagor_dev)
+* [Medium](https://medium.com/@ezagor)
+* [Mail](mailto:ezagor@icloud.com)
+* Discord : Ezagor#9245
+
+![image](https://user-images.githubusercontent.com/45847677/224704676-2fe36451-66a3-44a1-bb9f-fc547257c06c.png)
